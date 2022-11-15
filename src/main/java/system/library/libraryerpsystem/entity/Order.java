@@ -23,7 +23,7 @@ public class Order {
     private UUID id;
 
     @ManyToOne
-    @JoinColumn(name = "customer_id", nullable = false, insertable = false, updatable = false)
+    @JoinColumn(name = "customer_id", nullable = false, updatable = false)
     private Customer customer;
 
     @OneToOne(cascade = CascadeType.ALL)
