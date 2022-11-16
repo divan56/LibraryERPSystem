@@ -24,5 +24,4 @@ public interface BookManagementService {
 
     Order completeTheOrder(Order order);
 
-
 }
